@@ -1,0 +1,126 @@
+@import "../variables/variable-dir"
+body
+    margin: 0
+
+.main-grid
+    display: grid
+    grid-template-columns: 40px 1fr 150px 40px
+    grid-template-rows: 100px 1fr
+    margin: 0
+    padding: 0
+
+header
+    grid-column: 2/4
+    grid-row: 1/2
+    width: 100%
+    padding: 0
+    margin: 0
+    border-bottom: 2px solid rgba(147, 168, 172, 0.3)
+    line-height: 178px
+
+.dotw-name
+    display: inline-block
+    height: auto
+    background-color: $backc-1
+    width: calc(100% / 7)
+    margin: 0
+    padding: 0 0 2px 0
+    color: $textc-1
+    &:nth-child(n+2)
+        margin: 0 0 0 -4px
+
+.month-name-container
+    grid-column: 2/3
+    grid-row: 1/2
+    margin: 0
+    padding: 0
+    height: 100%
+    width: 100%
+
+#month-name
+    display: inline-block
+    margin: 0
+    padding: 0
+
+.fb-buttons
+    display: inline-block
+    margin-top: 20px
+
+.selection-container
+    grid-column: 3/4
+    grid-row: 1/2
+    select
+        display: inline-block
+        font-size: 40px
+        padding: 0
+        margin-top: 10px
+
+.day-div
+    display: inline-block
+    width: calc(100% / 7)
+    height: 170px
+    border-bottom: 2px solid rgba(147, 168, 172, 0.3)
+    vertical-align: top
+    &:hover
+        cursor: pointer
+
+.previousMonth
+    background-color: $backc-3
+
+.NextMonth
+    background-color: $backc-3
+
+.days-container
+    grid-column: 2/4
+    grid-row: 2/3
+
+.sidebar
+    display: grid
+    width: 100%
+    height: 100%
+    grid-template-rows: 75px 1fr 75px
+    grid-column: 5/6
+    grid-row: 1/3
+    background-color: $backc-1
+    a
+        span
+            text-align: center
+            margin: auto
+            display: inline-block
+            width: 100%
+            grid-row: 1/2
+
+.glyphicon-menu-left
+    font-size: 25px
+    border-radius: 50%
+    padding: 3px 3px 3px 3px
+    &:hover
+        cursor: pointer
+        background-color: $backc-4
+
+.glyphicon-menu-right
+    font-size: 25px
+    border-radius: 50%
+    padding: 3px 3px 3px 3px
+    &:hover
+        cursor: pointer
+        background-color: $backc-4
+
+.glyphicon-menu-hamburger
+    font-size: 30px
+
+.event-blue
+    position: relative
+    background-color: rgb(193, 255, 255)
+
+.event-red
+    position: relative
+    background-color: rgb(255, 124, 124)
+
+.event-green
+    position: relative
+    background-color: rgb(173, 255, 176)
+
+.event-yellow
+    position: relative
+    background-color: rgb(253, 255, 188)

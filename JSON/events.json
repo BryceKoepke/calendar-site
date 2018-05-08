@@ -1,0 +1,64 @@
+{
+    "events": [
+        {
+            "startMonth": 3,
+            "startDay": 20,
+            "startYear": 2018,
+            "endMonth": 3,
+            "endDay": 25,
+            "endYear": 2018,
+            "des": "days off",
+            "color": "blue"
+        },
+        {
+            "startMonth": 4,
+            "startDay": 15,
+            "startYear": 2018,
+            "endMonth": 4,
+            "endDay": 23,
+            "endYear": 2018,
+            "des": "study",
+            "color": "green"
+        },
+        {
+            "startMonth": 5,
+            "startDay": 7,
+            "startYear": 2018,
+            "endMonth": 5,
+            "endDay": 11,
+            "endYear": 2018,
+            "des": "Exams",
+            "color": "red"
+        },
+        {
+            "startMonth": 5,
+            "startDay": 8,
+            "startYear": 2018,
+            "endMonth": 5,
+            "endDay": 8,
+            "endYear": 2018,
+            "des": "Beg Web 1 Final",
+            "color": "yellow"
+        },
+        {
+            "startMonth": 5,
+            "startDay": 5,
+            "startYear": 2018,
+            "endMonth": 5,
+            "endDay": 5,
+            "endYear": 2018,
+            "des": "Chill",
+            "color": "blue"
+        },
+        {
+            "startMonth": 5,
+            "startDay": 6,
+            "startYear": 2018,
+            "endMonth": 5,
+            "endDay": 6,
+            "endYear": 2018,
+            "des": "Study",
+            "color": "green"
+        }
+    ]
+}

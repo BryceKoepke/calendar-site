@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calendar</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="bodyid">
+    <div class="main-grid">
+        <div class="month-name-container">
+            <div class="fb-buttons">
+                <span class="glyphicon glyphicon-menu-left" id="back-month" onclick="previousMonth()"></span>
+                <span class="glyphicon glyphicon-menu-right" id="forward-month" onclick="nextMonth()"></span>
+            </div>
+            <h1 id="month-name"></h1>
+        </div>
+        <div class="selection-container">
+            <select id="view">
+                <option value="Month">Month</option>
+                <option value="Week">Week</option>
+                <option value="Day">Day</option>
+                <option value="Year">Year</option>
+            </select>
+        </div>
+        <header>
+            <h3 class="dotw-name">Sun</h3>
+            <h3 class="dotw-name">Mon</h3>
+            <h3 class="dotw-name">Tue</h3>
+            <h3 class="dotw-name">Wen</h3>
+            <h3 class="dotw-name">Thu</h3>
+            <h3 class="dotw-name">Fri</h3>
+            <h3 class="dotw-name">Sat</h3>
+        </header>
+        <div class="days-container" id="day-container">
+            <script src="../JS/app.js"></script>
+        </div>
+    </div>
+
+</body>
+
+</html>
